@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    text-align:center;
+    padding: 0;
+}
+#container{
+    position:absolute;
+    right:0%;
+    top:0;
+    height: 100%;
+    width:100%;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    z-index: 999;
+    overflow-y: auto;
+}
+#mapdiv{
+    position:absolute;
+    right:20%;
+    top:0;
+    height: 100%;
+    width:100%;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    z-index: 999;
+    overflow-y: auto;
+}
+#mapdiv2{
+    position:absolute;
+    right:20%;
+    top:0;
+    height: 100%;
+    width:100%;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    z-index: 0;
+    overflow-y: auto;
+}
+#control{
+    position:absolute;
+    right:0%;
+    top:0;
+    height: 40%;
+    width:20%;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    z-index: 999;
+    overflow-y: auto;
+}
+#Heatmap{
+    position: absolute;
+    width: 40%;
+    height: 20%;
+    top:5%;
+    left:5%;
+    background-color: white;
+    border-radius:10px;
+    color:black;
+    border-width: 3px;
+    /*border-style: solid;*/
+    border-style:solid;
+    border-color: black;
+    background-color: white;
+    font-size: 10pt;
+}
+#Hexagon{
+    position: absolute;
+    width: 40%;
+    height: 20%;
+    top:5%;
+    right:5%;
+    background-color: white;
+    border-radius:10px;
+    color:black;
+    border-width: 3px;
+    /*border-style: solid;*/
+    border-style:solid;
+    border-color: black;
+    background-color: white;
+    font-size: 10pt;
+}
+#Grid{
+    position: absolute;
+    width: 40%;
+    height: 20%;
+    top:30%;
+    left:5%;
+    background-color: white;
+    border-radius:10px;
+    color:black;
+    border-width: 3px;
+    /*border-style: solid;*/
+    border-style:solid;
+    border-color: black;
+    background-color: white;
+    font-size: 10pt;
+}
+#District{
+    position: absolute;
+    width: 40%;
+    height: 20%;
+    top:30%;
+    right:5%;
+    background-color: white;
+    border-radius:10px;
+    color:black;
+    border-width: 3px;
+    /*border-style: solid;*/
+    border-style:solid;
+    border-color: black;
+    background-color: white;
+    font-size: 10pt;
+}
+#Contour{
+    position: absolute;
+    width: 40%;
+    height: 20%;
+    top:55%;
+    left:5%;
+    background-color: white;
+    border-radius:10px;
+    color:black;
+    border-width: 3px;
+    /*border-style: solid;*/
+    border-style:solid;
+    border-color: black;
+    background-color: white;
+    font-size: 10pt;
+}
+#Labels{
+    position: absolute;
+    width: 40%;
+    height: 20%;
+    top:55%;
+    right:5%;
+    background-color: white;
+    border-radius:10px;
+    color:black;
+    border-width: 3px;
+    /*border-style: solid;*/
+    border-style:solid;
+    border-color: black;
+    background-color: white;
+    font-size: 10pt;
+}
+#showdata{
+    position:absolute;
+    right:0%;
+    top:40%;
+    height: 60%;
+    width:20%;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    z-index: 999;
+}
+#data{
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    top:2.5%;
+    right:2.5%;
+    border-width: 3px;
+    border-style:solid;
+    border-color: black;
+    background-color: white;
+    font-size: 20pt;
+    overflow-y: auto;
+}
